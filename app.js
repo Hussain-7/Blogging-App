@@ -4,7 +4,7 @@ var express    =require("express"),
     bodyParser =require("body-parser");
 var methodOverride =require("method-override");
     mongoose   = require('mongoose');
-mongoose.connect("mongodb+srv://Hussain:Hussain-2000@hussain-lmznc.gcp.mongodb.net/Blogapp?retryWrites=true&w=majority");
+mongoose.connect("Add mongo URI for your own collection here");
 app.set("view engine","ejs");
 app.use(express.static("public"));
 app.use(bodyParser.urlencoded({extended:true}));
