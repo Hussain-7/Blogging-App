@@ -20,14 +20,23 @@ i.icon.chevron.right:before {
 .ui.items>.item>.image>img {
     display: flex;
     align-items: center;
-    height:80%;
+    height:100%;
     align-items: center;
-    margin-top:2rem;
 }
-div .image{
+
+
+#image__div{
     display: flex;
     align-items: center;
-
+    width: 40% !important;
+    height: 100%;
+}
+#blog__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    width: 55% !important;
 }
 
 #zoom {
@@ -35,6 +44,7 @@ div .image{
     transition: transform .2s; /* Animation */
     margin: 1rem 0rem;
     padding: 1rem 1rem !important;
+    height: 35%;
   }
   
   #zoom:hover {

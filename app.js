@@ -24,21 +24,7 @@ var Blogs=mongoose.model("Blogs",Blogschema);
  
 
 
-// Blogs.create({
-//     title:"String",
-//     image:"String",
-//     body:"clcwcpkpkwckw",
-//     location:"Lahore"
-// }),function(err,blogs){
-//     if(err)
-//     { 
-//         console.log(err);
-//     }
-//     else{
-//          console.log(blogs);  
-//      }
 
-// }
 
 app.get("/",function(req,res){
     res.redirect("/blogs")

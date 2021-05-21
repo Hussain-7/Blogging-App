@@ -6,8 +6,8 @@
     <div class="ui divided items">
         <%blogs.forEach(function(blog){%>
             <div id="zoom" class="item">
-                <div class="image"> <img src="<%=blog.image%>" alt="image not loaded correctly"></div>
-               <div class="content">
+                <div id="image__div" class="image"> <img src="<%=blog.image%>" alt="image not loaded correctly"></div>
+               <div id="blog__content" class="content">
                 <a class="header" href="/blogs/<%=blog._id%>"><%=blog.title%></a>
                 <div class="meta">
                     <span><%=blog.created.toDateString()%></span>
